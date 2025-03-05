@@ -43,7 +43,7 @@ const IntelligentNetwork = () => {
       <SolutionHero 
         title="Intelligent Network Solutions" 
         description="High-speed internet, structured cabling, fiber optics, and comprehensive network solutions for your business."
-        image="/network.jpg"
+        image src="/network.jpg"
       />
       
       <SolutionFeatures features={features} />
@@ -51,7 +51,7 @@ const IntelligentNetwork = () => {
       <SolutionDetails 
         title="High-Speed Internet & Structured Cabling"
         description="We provide fast, reliable internet connectivity solutions tailored to your business needs. Our structured cabling services ensure a solid foundation for your network infrastructure, delivering consistent performance and scalability."
-        image="/audit.png"
+        image src="/audit.png"
         features={[
           'Business-grade internet with guaranteed uptime',
           'Dedicated bandwidth options',
