@@ -65,7 +65,7 @@ const IntelligentSecurity = () => {
       <SolutionDetails 
         title="Alarm Systems & Intercom Solutions"
         description="Our integrated alarm systems provide comprehensive protection against intrusion, with seamless integration with your existing security infrastructure. Our modern intercom solutions enable controlled access and clear communication throughout your premises."
-        image="https://images.unsplash.com/photo-1557597883-aac6bf4a3d44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+        image="/tech.jpg"
         imagePosition="left"
         features={[
           'Integrated alarm systems',
