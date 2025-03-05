@@ -51,7 +51,7 @@ const Communication = () => {
       <SolutionDetails 
         title="PABX & IPBX Systems"
         description="We offer both traditional PABX and modern IPBX solutions to meet your business communication needs. Our systems provide reliable telephony services with advanced features to enhance productivity and customer service."
-        image="https://images.unsplash.com/photo-1557597883-aac6bf4a3d44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+        image="/pabx.jpg"
         features={[
           'Scalable telephony solutions',
           'Advanced call management features',
@@ -80,7 +80,7 @@ const Communication = () => {
       <SolutionDetails 
         title="MATV, IPTV & Unified Communications"
         description="We provide comprehensive television distribution systems, including traditional MATV and modern IPTV solutions. Our unified communications platforms integrate various communication channels for seamless collaboration across your organization."
-        image="https://images.unsplash.com/photo-1557597883-aac6bf4a3d44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+        image="/coms.png"
         features={[
           'MATV system design and installation',
           'IPTV content delivery solutions',
