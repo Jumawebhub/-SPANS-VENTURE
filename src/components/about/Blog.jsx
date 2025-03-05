@@ -7,8 +7,8 @@ const blogPosts = [
     title: 'The Future of Intelligent Networks',
     excerpt: 'Explore how intelligent networks are transforming business operations and driving efficiency in the digital age.',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-    date: 'June 15, 2025',
-    author: 'Sarah Williams',
+    date: '',
+    author: '',
     category: 'Network Solutions'
   },
   {
@@ -16,8 +16,8 @@ const blogPosts = [
     title: 'Enhancing Security with Smart CCTV Systems',
     excerpt: 'Learn how smart CCTV systems are revolutionizing security measures for businesses of all sizes.',
     image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-    date: 'May 28, 2025',
-    author: 'Michael Chen',
+    date: '',
+    author: '',
     category: 'Security Solutions'
   },
   {
@@ -25,8 +25,8 @@ const blogPosts = [
     title: 'The Role of ICT Infrastructure in Business Growth',
     excerpt: 'Discover how a robust ICT infrastructure can support business growth and digital transformation.',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-    date: 'April 10, 2025',
-    author: 'Emily Rodriguez',
+    date: '',
+    author: '',
     category: 'ICT Infrastructure'
   }
 ];
@@ -83,7 +83,7 @@ const Blog = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Link to="/blog" className="btn btn-primary">
+          <Link to="/services" className="btn btn-primary">
             View All Posts
           </Link>
         </div>
