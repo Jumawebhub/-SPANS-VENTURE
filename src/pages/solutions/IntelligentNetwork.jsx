@@ -43,7 +43,7 @@ const IntelligentNetwork = () => {
       <SolutionHero 
         title="Intelligent Network Solutions" 
         description="High-speed internet, structured cabling, fiber optics, and comprehensive network solutions for your business."
-        image="/network.jpg" // ✅ Fixed image reference
+        image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
       />
       
       <SolutionFeatures features={features} />
@@ -80,7 +80,7 @@ const IntelligentNetwork = () => {
       <SolutionDetails 
         title="LAN, WAN & Network Monitoring"
         description="We design, implement, and maintain comprehensive local and wide area network solutions that connect your business locations securely and efficiently. Our proactive network monitoring services ensure optimal performance and quick resolution of potential issues."
-        image="https://images.unsplash.com/photo-1557597883-aac6bf4a3d44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+        image="/network.jpg"
         features={[
           'LAN design and implementation',
           'WAN connectivity solutions',
