@@ -51,7 +51,7 @@ const IctInfrastructure = () => {
       <SolutionDetails 
         title="Building Backbone Networks & LAN"
         description="We design and implement robust network infrastructure to support your entire building or campus. Our comprehensive LAN solutions ensure seamless connectivity throughout your organization, with scalability to accommodate future growth."
-        image="https://images.unsplash.com/photo-1558494950-b8e691d7a21b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+        image="/lan.jpg"
         features={[
           'Backbone network design and implementation',
           'High-performance switching and routing',
@@ -65,7 +65,7 @@ const IctInfrastructure = () => {
       <SolutionDetails 
         title="Building Management & Power Backup"
         description="Our integrated building management systems help you monitor and control various building operations efficiently. We also provide reliable power backup solutions to ensure continuous operations during power outages."
-        image="https://images.unsplash.com/photo-1557597883-aac6bf4a3d44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+        image="/backup.jpg"
         imagePosition="left"
         features={[
           'HVAC monitoring and control',
