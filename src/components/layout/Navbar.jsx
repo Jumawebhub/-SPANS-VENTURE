@@ -133,18 +133,27 @@ const Navbar = () => {
                 </svg>
               </button>
               <div className={`mt-2 space-y-2 ${solutionsDropdown ? 'block' : 'hidden'}`}>
-                <NavLink to="/solutions/intelligent-network" className="block py-2 text-center text-lg hover:text-primary" onClick={closeMenu}>
-                  Intelligent Network
-                </NavLink>
-                <NavLink to="/solutions/intelligent-security" className="block py-2 text-center text-lg hover:text-primary" onClick={closeMenu}>
-                  Intelligent Security
-                </NavLink>
-                <NavLink to="/solutions/communication" className="block py-2 text-center text-lg hover:text-primary" onClick={closeMenu}>
-                  Communication
-                </NavLink>
-                <NavLink to="/solutions/ict-infrastructure" className="block py-2 text-center text-lg hover:text-primary" onClick={closeMenu}>
-                  ICT Infrastructure
-                </NavLink>
+                <NavLink to="/solutions/intelligent-network" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  ICT infrastructure
+                  </NavLink>
+                  <NavLink to="/solutions/intelligent-security" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Integrated Physical security systems
+                  </NavLink>
+                  <NavLink to="/solutions/communication" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Business Communication Solutions
+                  </NavLink>
+                  <NavLink to="/solutions/ict-infrastructure" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Cloud solutions/ SaaS
+                  </NavLink>
+                  <NavLink to="/solutions/communication" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Automation and IoT
+                  </NavLink>
+                  <NavLink to="/solutions/SoftwareApplications" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Softwares and Applications
+                  </NavLink>
+                  <NavLink to="/solutions/ManagedServices" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Managed Services
+                  </NavLink>
               </div>
             </div>
             <NavLink to="/services" className="nav-link text-xl" onClick={closeMenu}>
