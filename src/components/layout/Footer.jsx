@@ -99,7 +99,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              &copy; {currentYear}Copyright © SPAN VENTURES LIMITED. All rights reserved.
+              &copy; {currentYear}Copyright © SPANS VENTURES LIMITED. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Link to="/privacy-policy" className="text-gray-400 text-sm hover:text-primary">Privacy Policy</Link>

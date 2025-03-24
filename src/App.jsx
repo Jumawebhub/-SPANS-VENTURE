@@ -12,6 +12,8 @@ import IntelligentSecurity from './pages/solutions/IntelligentSecurity';
 import Communication from './pages/solutions/Communication';
 import IctInfrastructure from './pages/solutions/IctInfrastructure';
 import ScrollToTop from './components/utils/ScrollToTop';
+import SoftwareApplications from './pages/solutions/SoftwareApplications';
+import ManagedServices from './pages/solutions/Managed Services';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/solutions/intelligent-security" element={<IntelligentSecurity />} />
           <Route path="/solutions/communication" element={<Communication />} />
           <Route path="/solutions/ict-infrastructure" element={<IctInfrastructure />} />
+          <Route path="/Solutions/SoftwareApplications" element={<SoftwareApplications/>}/>
+          <Route path="/solutions/ManagedServices" element={<ManagedServices/>}/>
           <Route path="/services" element={<Services />} />
           <Route path="/clients" element={<Clients />} />
           <Route path="/contact" element={<Contact />} />

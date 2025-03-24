@@ -77,16 +77,25 @@ const Navbar = () => {
               <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                 <div className="py-2">
                   <NavLink to="/solutions/intelligent-network" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
-                    Intelligent Network
+                  ICT infrastructure
                   </NavLink>
                   <NavLink to="/solutions/intelligent-security" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
-                    Intelligent Security
+                  Integrated Physical security systems
                   </NavLink>
                   <NavLink to="/solutions/communication" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
-                    Communication
+                  Business Communication Solutions
                   </NavLink>
                   <NavLink to="/solutions/ict-infrastructure" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
-                    ICT Infrastructure
+                  Cloud solutions/ SaaS
+                  </NavLink>
+                  <NavLink to="/solutions/communication" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Automation and IoT
+                  </NavLink>
+                  <NavLink to="/solutions/SoftwareApplications" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Softwares and Applications
+                  </NavLink>
+                  <NavLink to="/solutions/ManagedServices" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+                  Managed Services
                   </NavLink>
                 </div>
               </div>
