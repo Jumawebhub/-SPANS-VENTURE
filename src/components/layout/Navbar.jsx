@@ -133,7 +133,7 @@ const Navbar = () => {
                 </svg>
               </button>
               <div className={`mt-2 space-y-2 ${solutionsDropdown ? 'block' : 'hidden'}`}>
-                <NavLink to="/solutions/intelligent-network" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
+              <NavLink to="/solutions/intelligent-network" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
                   ICT infrastructure
                   </NavLink>
                   <NavLink to="/solutions/intelligent-security" className="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-primary">
